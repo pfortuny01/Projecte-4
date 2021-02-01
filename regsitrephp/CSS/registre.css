@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+    max-width: 1024px;
+    font-family: sans-serif;
+}
+
+body{
+    height: auto;
+    
+    
+}
+
+#all{
+    border: 3px solid black;
+    height: 1000px;
+    border-radius: 20px;
+    background-image: transparent;
+}
+
+header{
+    border: 3px solid red;
+    background-color: azure;
+    height: 140px;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+
+}
+
+nav{
+    border: 3px solid yellow;
+    background-color: white;
+    display: flex;
+    height: 50px;
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    color: black;
+    font-size: 20px;
+}
+
+#compra{
+    border: 3px solid blue;
+    height: 30px;
+    width: 50px;
+}
+
+#compra img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#formulari{
+    border: 3px solid brown;
+    height: 500px;
+    display: block;
+}
+
+#usuari{
+    border: 3px solid green;
+    margin-top: 10px;
+    height: 170px;
+    width: 250px;
+}
+
+#usuari img{
+    height: 100%;
+    width: 100%;
+}
+
+#dades{
+    position: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+section{
+    margin-top: 20px;
+}

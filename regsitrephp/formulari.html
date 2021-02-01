@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/registre.css">
+    <link rel="stylesheet" href="Imatges/">
+    <title>Register</title>
+</head>
+
+<body>
+    <div id="all">      
+
+        <header>
+            <h1>TRAGEN</h1>
+        </header>
+
+<!--                                              MENU                                                            -->
+
+        <div id="menu">
+            <nav>
+                <li><a class="inici" href="">Inici</a></li>
+                <li><a href="">Registrar-se</a></li>
+                <li><a href="">Inici de Sessió</a></li>
+                <div id="compra"><li><a href=""><img src="Icon/carrito.png" alt=""></a></li></div>
+            </nav>
+        </div>
+
+
+        
+<!--                                                FORMULARI                                                    -->
+    
+    <div id="formulari">
+        <form action="php.php" method="post" name="form">
+                 
+            <div id="usuari">
+                <img src="Imatges/usuari.jpg" alt="">
+            </div>
+
+               
+            <div id="dades">
+                    <section id="dni">            
+                        <label for="dni">NIF:</label>
+                        <input type="text" id="dni" name="dni" placeholder="dni" required class="field">
+                    </section>
+
+                    <section id="nom">
+                        <label for="nom">Nom:</label>
+                        <input type="text" name="nom" id="nom" placeholder="Introdueix el teu nom" required class="field">
+                    </section>
+
+                    <section id="correu">
+                        <label for="correu">E-Mail:</label>
+                        <input type="text" name="correu" id="correu" placeholder="Introdueix el correu" required class="field">
+                    </section>
+
+                    <section id="data">
+                        <label for="data">Data naixament:</label>
+                        <input type="date" name="dataNaixament" id="dataNaixament" placeholder="data" required class="field">
+                    </section>
+
+                    <section id="pass">
+                        <label for="contrasenya">Contrasenya:</label>
+                        <input type="contrasenya" name="contrasenya" placeholder="Introdueix la contrasenya" id="contrasenya" required
+                            class="field">
+                    </section>
+
+                    <section id="boto">
+                        <input type="submit" value="Envia">
+                        <input type="reset" name="netejar" id="netejar" value="Netejar formulari">
+                    </section>
+
+            </div>
+        </form>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
