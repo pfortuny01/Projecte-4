@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hotels SYSTEM "hotels.dtd">
+<hotels>
+  <hotel idprod="H01">
+  <id>H01</id>
+  <imatge>hotel1.jpg</imatge>
+  <categoria>5 estrelles</categoria>
+  <nom>Hotel Geneve</nom>
+  <lloc>Suissa</lloc>
+  <preu>150€</preu>
+   </hotel>
+
+  <hotel idprod="H02">
+  <id>H02</id>
+  <imatge>hotel2.jpg</imatge>
+  <categoria>3 estrelles</categoria>
+  <nom>Motel Rings</nom>
+  <lloc>Miami</lloc>
+  <preu>125€</preu>
+   </hotel>
+   
+     <hotel idprod="H03">
+     <id>H03</id>
+     <imatge>hotel3.jpg</imatge>
+  <categoria>4 estrelles</categoria>
+  <nom>Gaming hotel</nom>
+  <lloc>Tokyo</lloc>
+  <preu>200€</preu>
+   </hotel>
+   
+     <hotel idprod="H04">
+     <id>H04</id>
+     <imatge>hotel4.jpg</imatge>
+  <categoria>2 estrelles</categoria>
+  <nom>Hotel Piaono</nom>
+  <lloc>Roma</lloc>
+  <preu>40€</preu>
+   </hotel>
+
+  <hotel idprod="H05">
+  <id>H05</id>
+  <imatge>hotel5.jpg</imatge>
+  <categoria>1 estrella</categoria>
+  <nom>Grefgs house</nom>
+  <lloc>Andorra</lloc>
+  <preu>55€</preu>
+   </hotel>
+   
+     <hotel idprod="H06">
+     <id>H06</id>
+     <imatge>hotel6.jpg</imatge>
+  <categoria>4 estrelles</categoria>
+  <nom>Nevadas room</nom>
+  <lloc>Nevada</lloc>
+  <preu>75€</preu>
+   </hotel>
+   
+</hotels>

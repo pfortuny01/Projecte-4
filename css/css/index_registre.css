@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    font-family: Arial;
+    background-image: url("../../imatges/fondoblanco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.navbar a {
+   border: 2px solid white;
+   border-radius: 15px;
+   background: #555;
+   float: left;
+   text-align: center;
+   padding: 12px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+}
+.navbar a:hover {
+   background-color: red;
+}
+
+.active {
+   background-color: #4CAF50;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    }
+}
+
+header{
+    height: 150px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    
+}
+
+header h1{
+    background: transparent;
+    font-size: 100px;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    
+}
+
+header h2{
+    background: transparent;
+}
+
+.foto{
+    height: auto;
+    padding: 20px;
+    background-image: url("../../imatges/postales.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#reg-head-fail {
+    color: red;
+}
+
+form {
+    border-radius: 20px;
+    width: 450px;
+    height: auto;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.avis{
+    color: red;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    text-decoration-line: underline;
+    
+}
+.caixa{
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.tipo{
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+.tipos input{
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno h5{
+    font-size: 22px;
+    text-align: center;
+    font-family:cursive;
+}
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+    font-family:cursive;
+}
+
+.ATC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.dos section li:hover {
+   background-color: red;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tres h7{
+    font-size: 18px;
+    text-align: center;
+    font-family:cursive;
+}
+
+section li a{
+    color: black;
+}

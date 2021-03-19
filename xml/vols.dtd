@@ -1,0 +1,10 @@
+<!ELEMENT vols (vol)+>
+<!ELEMENT vol (id, imatge, categoria, nom, lloc, preu)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT imatge (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST vol idprod ID #REQUIRED>

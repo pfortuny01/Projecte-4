@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vols SYSTEM "vols.dtd">
+<vols>
+    <vol idprod="V01">
+  <id>V01</id>
+  <imatge>vol1.png</imatge>
+  <categoria>Turista</categoria>
+  <nom>Qatar airways</nom>
+  <lloc>Miami</lloc>
+  <preu>200€</preu>
+   </vol>
+   
+   <vol idprod="V02">
+   <id>V02</id>
+   <imatge>vol2.png</imatge>
+  <categoria>Business</categoria>
+  <nom>Iberia</nom>
+  <lloc>Reus</lloc>
+  <preu>120€</preu>
+   </vol>
+   
+   <vol idprod="V03">
+   <id>V03</id>
+   <imatge>vol3.png</imatge>
+  <categoria>Turista</categoria>
+  <nom>Fly Emirates</nom>
+  <lloc>Suissa</lloc>
+  <preu>100€</preu>
+   </vol>
+   
+   <vol idprod="V04">
+   <id>V04</id>
+   <imatge>vol4.jpg</imatge>
+  <categoria>Business</categoria>
+  <nom>Business/Vueling</nom>
+  <lloc>Kuala Lumpur</lloc>
+  <preu>300€</preu>
+   </vol>
+
+<vol idprod="V05">
+<id>V05</id>
+<imatge>vol3.png</imatge>
+  <categoria>Turista</categoria>
+  <nom>Fly Emirates</nom>
+  <lloc>Miami</lloc>
+  <preu>400€</preu>
+   </vol>
+   
+   <vol idprod="V06">
+   <id>V06</id>
+   <imatge>vol6.png</imatge>
+  <categoria>Turista</categoria>
+  <nom>France airlines</nom>
+  <lloc>Paris</lloc>
+  <preu>200€</preu>
+   </vol>
+
+
+</vols>

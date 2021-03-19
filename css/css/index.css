@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+    font-family: Arial;
+    background-image: url("../../imatges/fondoblanco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    overflow: auto;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.navbar a {
+   border: 2px solid white;
+   border-radius: 15px;
+   background: #555;
+   float: left;
+   text-align: center;
+   padding: 12px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+}
+.navbar a:hover {
+   background-color: red;
+}
+
+.active {
+   background-color: #4CAF50;
+}
+
+header{
+    height: 150px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    
+}
+
+header h1{
+    background: transparent;
+    font-size: 100px;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    
+}
+
+header h2{
+    background: transparent;
+}
+
+.publi{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.publi p{
+    text-align: center;
+    font-size: 18px;
+    font-family:cursive;
+    font-weight: 600;
+}
+
+.slider{
+    border-radius: 30px;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+    border: solid black 10px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0; }
+    20% {margin-left: 0; }
+    
+    25% {margin-left: -100%; }
+    45% {margin-left: -100%; }
+    
+    50% {margin-left: -200%; }
+    70% {margin-left: -200%; }
+    
+    75% {margin-left: -300%; }
+    100% {margin-left: -300%; }
+}
+
+.foto{
+    height: auto;
+    background-image: url("../../imatges/postales.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    padding: 20px;
+} 
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno h5{
+    font-size: 22px;
+    text-align: center;
+    font-family:cursive;
+}
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+    font-family:cursive;
+}
+
+.ATC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.plain li a:hover, .alt li a:hover {
+   background-color: red;
+}
+
+.dos section li a{
+    color: black;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tres h7{
+    font-size: 18px;
+    text-align: center;
+    font-family:cursive;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: center;   
+    }
+    .foto{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}

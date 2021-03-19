@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE excursions SYSTEM "excursions.dtd">
+<excursions>
+
+  <excursio idprod="E01">
+  <id>E01</id>
+  <imatge>ex1.jpg</imatge>
+  <categoria>Guiada</categoria>
+  <nom>Visita per Paris</nom>
+  <lloc>Paris</lloc>
+  <preu>25€</preu>
+   </excursio>
+ 
+    <excursio idprod="E02">
+    <id>E02</id>
+    <imatge>ex2.jpg</imatge>
+  <categoria>Esportiva</categoria>
+  <nom>Motos d'aigua</nom>
+  <lloc>Cambrils</lloc>
+  <preu>10€</preu>
+   </excursio>
+   
+     <excursio idprod="E03">
+     <id>E03</id>
+     <imatge>ex3.jpg</imatge>
+  <categoria>Esportiva</categoria>
+  <nom>Paintball Extreme</nom>
+  <lloc>Andorra</lloc>
+  <preu>45€</preu>
+   </excursio>
+   
+     <excursio idprod="E04">
+     <id>E04</id>
+     <imatge>ex4.jpg</imatge>
+  <categoria>Senderisme</categoria>
+  <nom>La Bonaigua d'Andorra</nom>
+  <lloc>Andorra</lloc>
+  <preu>0€</preu>
+   </excursio>
+   
+     <excursio idprod="E05">
+     <id>E05</id>
+     <imatge>ex5.jpg</imatge>
+  <categoria>Guiada</categoria>
+  <nom>Coliseu de Roma</nom>
+  <lloc>Roma</lloc>
+  <preu>35€</preu>
+   </excursio>
+   
+     <excursio idprod="E06">
+     <id>E06</id>
+     <imatge>ex6.jpg</imatge>
+  <categoria>Esportiva</categoria>
+  <nom>Surf away a Miami</nom>
+  <lloc>Miami</lloc>
+  <preu>75€</preu>
+   </excursio>
+  
+</excursions>

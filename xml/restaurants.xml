@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurants SYSTEM "restaurants.dtd">
+
+<restaurants>
+
+  <restaurant idprod="R01">
+  <id>R01</id>
+  <imatge>res1.jpg</imatge>
+  <categoria>Mexica</categoria>
+  <nom>Mexico Tell(Londres)</nom>
+  <lloc>Llondres</lloc>
+  <preu>20€</preu>
+   </restaurant>
+ 
+  <restaurant idprod="R02">
+  <id>R02</id>
+  <imatge>res2.jpg</imatge>
+  <categoria>Creperia</categoria>
+  <nom>El gat</nom>
+  <lloc>Cambrils</lloc>
+  <preu>12€</preu>
+  </restaurant>
+ 
+  <restaurant idprod="R03">
+  <id>R03</id>
+  <imatge>res3.jpg</imatge>
+  <categoria>Asiatic</categoria>
+  <nom>Asian Temple</nom>
+  <lloc>Andorra</lloc>
+  <preu>20€</preu>
+  </restaurant>
+ 
+  <restaurant idprod="R04">
+  <id>R04</id>
+  <imatge>res4.jpg</imatge>
+  <categoria>Japones</categoria>
+  <nom>Katori</nom>
+  <lloc>Tokyo</lloc>
+  <preu>35€</preu>
+   </restaurant>
+ 
+   <restaurant idprod="R05">
+   <id>R05</id>
+   <imatge>res5.jpg</imatge>
+  <categoria>Hamburguesseria</categoria>
+  <nom>Goiko</nom>
+  <lloc>Paris</lloc>
+  <preu>30€</preu>
+  </restaurant>
+ 
+ <restaurant idprod="R06">
+ <id>R06</id>
+ <imatge>res6.jpg</imatge>
+  <categoria>Casola</categoria>
+  <nom>Nevada home</nom>
+  <lloc>Nevada</lloc>
+  <preu>10€</preu>
+  </restaurant>
+ 
+</restaurants>

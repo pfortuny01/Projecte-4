@@ -1,0 +1,10 @@
+<!ELEMENT excursions (excursio)+>
+<!ELEMENT excursio (id, imatge, categoria, nom, lloc, preu)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT imatge (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST excursio idprod ID #REQUIRED>
